@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mx-auto p-5">
+        <!-- 
+        main secton -->
+        <div class="md:flex md:flex-row justify-between text-center">
+            <div class="flex flex-row justify-center">
+                <div class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10 rounded-lg"></div>
+                <h2 class="text-3xl ml-2 ">logo</h1>
+            </div>
+            <div class="mt-2">
+                <a href="#" class="text-gray-600 hover:text-purple-600 font-bold p-2"> Home</a>
+                <a href="#" class="text-gray-600 p-2 hover:text-purple-600 font-bold"> About US</a>
+                <a href="#" class="text-gray-600 p-2 hover:text-purple-600 font-bold"> Blog</a>
+                <a href="#" class="text-white-200 p-2 hover:bg-yellow-600 font-bold rounded-full bg-purple-700 px-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>Contact</a>
+            </div>
+        </div>
+
+        <!-- Hero section -->
+        <div class="md:flex md:flex-row mt-20">
+            <div class="md:w-2/5 flex flex-col justify-center items-center ">
+                <h2 class="font-serif text-5xl text-gray-600 mb-2 text-center md:self-start md:text-left">Some Title
+                </h2>
+                <p class="uppercase text-gray-600 tracking-wide text-center md:self-start md:text-left">Brand Title of
+                    our d goe</p>
+                <p class=" text-yellow-600 tracking-wide text-center md:self-start md:text-left">Brand Title motto here
+                </p>
+                <a href="#"
+                    class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full px-3 py-2 text-xl md:self-start ">SHOP
+                    NOW</a>
+            </div>
+            <div class="md:3/5 py-3">
+                <img src="./images/hero-img.svg " class="w-full">
+            </div>
+        </div>
+
+        <!-- <><><><><><><>< -->
+
+        <!-- menscollection -->
+        <div class="my-20">
+            <div class="flex flex-row justify-between">
+                <h2 class="text-3xl">Mens Collection</h2>
+                <a href="http://" class="text-xl flex flex-row">View ALL<svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-7 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <div class="shadow-lg rounded">
+                    <a href="http://">
+                        <img src="./images/products/men/product2.jpg" class="rounded-tl-lg rounded-tr-lg">
+                    </a>
+                    <div class="p-5 ">
+                        <h3><a href="http://">Mens T-SHirt</a></h3>
+                        <div class="flex flex-row my-5">
+                            <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-yellow-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-purple-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-red-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row ">
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">S
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">X
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">M
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XL
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XXL
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:flex-row justify-between my-2  ">
+                            <button class="rounded-full bg-gradient-to-r from-red-600 to-pink-500 px-4 py-2">Add to
+                                cart</button>
+                            <button
+                                class="rounded-full bg-gradient-to-r from-blue-600 to-purple-500 px-4 py-2 my-2">View
+                                Details</button>
+
+                            <!-- <a href="#"
+                        class="bg-gradient-to-r from-red-600 to-pink-500 rounded-lg px-4 py-2">SHOP
+                        NOW</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded">
+                    <a href="http://">
+                        <img src="./images/products/men/product1.jpg" class="rounded-tl-lg rounded-tr-lg">
+                    </a>
+                    <div class="p-5 ">
+                        <h3><a href="http://">Mens T-SHirt</a></h3>
+                        <div class="flex flex-row my-5">
+                            <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-yellow-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-purple-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-red-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row ">
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">S
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">X
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">M
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XL
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XXL
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:flex-row justify-between my-2  ">
+                            <button class="rounded-full bg-gradient-to-r from-red-600 to-pink-500 px-4 py-2">Add to
+                                cart</button>
+                            <button
+                                class="rounded-full bg-gradient-to-r from-blue-600 to-purple-500 px-4 py-2 my-2">View
+                                Details</button>
+
+                            <!-- <a href="#"
+                        class="bg-gradient-to-r from-red-600 to-pink-500 rounded-lg px-4 py-2">SHOP
+                        NOW</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded">
+                    <a href="http://">
+                        <img src="./images/products/men/product3.jpg" class="rounded-tl-lg rounded-tr-lg">
+                    </a>
+                    <div class="p-5 ">
+                        <h3><a href="http://">Mens T-SHirt</a></h3>
+                        <div class="flex flex-row my-5">
+                            <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-yellow-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-purple-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-red-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row ">
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">S
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">X
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">M
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XL
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XXL
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:flex-row justify-between my-2  ">
+                            <button class="rounded-full bg-gradient-to-r from-red-600 to-pink-500 px-4 py-2">Add to
+                                cart</button>
+                            <button
+                                class="rounded-full bg-gradient-to-r from-blue-600 to-purple-500 px-4 py-2 my-2">View
+                                Details</button>
+
+                            <!-- <a href="#"
+                        class="bg-gradient-to-r from-red-600 to-pink-500 rounded-lg px-4 py-2">SHOP
+                        NOW</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded">
+                    <a href="http://">
+                        <img src="./images/products/men/product4.jpg" class="rounded-tl-lg rounded-tr-lg">
+                    </a>
+                    <div class="p-5 ">
+                        <h3><a href="http://">Mens T-SHirt</a></h3>
+                        <div class="flex flex-row my-5">
+                            <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-yellow-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-purple-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-red-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row ">
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">S
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">X
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">M
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XL
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XXL
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:flex-row justify-between my-2  ">
+                            <button class="rounded-full bg-gradient-to-r from-red-600 to-pink-500 px-4 py-2">Add to
+                                cart</button>
+                            <button
+                                class="rounded-full bg-gradient-to-r from-blue-600 to-purple-500 px-4 py-2 my-2">View
+                                Details</button>
+
+                            <!-- <a href="#"
+                        class="bg-gradient-to-r from-red-600 to-pink-500 rounded-lg px-4 py-2">SHOP
+                        NOW</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg rounded">
+                    <a href="http://">
+                        <img src="./images/products/men/product1.jpg" class="rounded-tl-lg rounded-tr-lg">
+                    </a>
+                    <div class="p-5 ">
+                        <h3><a href="http://">Mens T-SHirt</a></h3>
+                        <div class="flex flex-row my-5">
+                            <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-yellow-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-purple-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-red-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                            <div class="bg-blue-900 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        </div>
+                        <div class="flex flex-row ">
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">S
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">X
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">M
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XL
+                            </div>
+                            <div class="border-2 border-gray-300 text-gray-500 rounded-md text-xs px-2 py-1 mr-2">XXL
+                            </div>
+                        </div>
+                        <div class="flex flex-col xl:flex-row justify-between my-2  ">
+                            <button class="rounded-full bg-gradient-to-r from-red-600 to-pink-500 px-4 py-2">Add to
+                                cart</button>
+                            <button
+                                class="rounded-full bg-gradient-to-r from-blue-600 to-purple-500 px-4 py-2 my-2">View
+                                Details</button>
+
+                            <!-- <a href="#"
+                        class="bg-gradient-to-r from-red-600 to-pink-500 rounded-lg px-4 py-2">SHOP
+                        NOW</a> -->
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- newsletter -->
+        <div class="rounded-lg shadow-lg my-20 flex flex-row">
+            <div class="lg:w-3/5 w-full bg-gradient-to-r bg-gray-400 lg:from-black lg:via-purple-900 lg:to-transparent rounded-lg p-10 sm:bg-gray-200">
+             <div class="lg:w-1/2 w-full">
+                <h3 class="text-2xl font-extrabold mb-4">Subscribe to Our NewsLetter</h3>
+                <p class="mb-4 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente at reiciendis ab nesciunt provident non commodi quae minus? Distinctio.</p>
+                <input type="email" placeholder="Email" class="bg-gray-600 text-gray-200 placeholder-gray-400 p-4 rounded-full w-full">
+             <button class="bg-red-600 w-full p-2 rounded-full my-2 text-yellow-500 hover:bg-yellow-600 hover:text-black">Subscribe</button>
+            </div>
+            </div>
+            <div class="lg:2/5 w-full lg:flex-row lg:flex hidden ">
+                <img src="./images/subscribe-banner.png" class="w-full ">
+            </div>
+        </div>
+        <div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center py-5 text-sm">
+            <div class="mb-4">
+              <a href="#" class="mx-2.5">About</a>
+              <a href="#" class="mx-2.5">Privacy Policy</a>
+              <a href="#" class="mx-2.5">Terms of Services</a>
+            </div>
+            <p>&copy; Copyright Reserved 2021</p>
+          </div>
+    </div>
+</body>
+
+</html>
